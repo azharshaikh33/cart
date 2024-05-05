@@ -1,9 +1,13 @@
 @Library('roboshop-shared-library') _
+
 pipeline {
     agent any 
     stages {
         stage('Lint Checks') {
             steps {
+                script {
+                    sample.info('shared library' , 'frontend.azharpro.com')
+                }
                 sh "echo Installing JSlist"
                 // sh "npm i jslint"
                 // sh "ls -ltr node_modules/jslint/bin/"
