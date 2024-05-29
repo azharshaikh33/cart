@@ -1,0 +1,3 @@
+app:
+    source: "https://github.com/azharshaikh33/tf-modules-mutable-app.git"
+    version: "main"
