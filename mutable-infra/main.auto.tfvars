@@ -1,1 +1,2 @@
-COMPONENTS = cart
+COMPONENTS  = "cart"
+APP_PORT    = 8080
